@@ -15,3 +15,6 @@ It must support services from above three services and also whatever we do must 
 </p> <br />
 
 The UML diagram shows the structure of the strategy pattern. Within some context, we have an interface, which is an abstract base class in Python terms that is common to all the supported algorithms. The context uses this interface to call the various algorithms defined by the concrete strategies that implement the base class. Each concrete strategy implementation takes the same input and returns the same type of output but is free to dictate the algorithm itself. 
+
+### Summary
+Strategy pattern is a simple way to encapsulate algorithms and separate them from context where they operate.
