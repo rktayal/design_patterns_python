@@ -44,3 +44,8 @@ Now when the subject state changes it loops through all currently attached obser
 and calls their update() method. 
 When called, the observer update() method calls the subject's getState() method to acquire the
 changes. In response, the subject returns the state request.
+
+### Summary
+In summary, it is a simple way to define one to many relationships between objects
+so when one changes, many are notified. Observer pattern is heavily used in many sorts of
+application esp. GUIs
